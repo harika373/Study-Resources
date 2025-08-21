@@ -6,11 +6,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Study Resources</h1>
-    <ul>
-        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
-        <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
-        <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
-    </ul>
+    <div class="container">
+        <h1>📚 Study Resources</h1>
+        
+        <!-- Buttons -->
+        <div class="buttons">
+            <button onclick="toggleResources()">Show/Hide Resources</button>
+            <button onclick="addResource()">➕ Add Resource</button>
+        </div>
+
+        <!-- Resource List -->
+        <ul id="resourceList">
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
+        </ul>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
